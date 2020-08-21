@@ -1,3 +1,5 @@
-* [子页一](README.md)
+* [上一页](README.md)
   
-* [子页二](guide.md)
+* [子页一](/docs/README.md)
+  
+* [子页二](/docs/guide.md)
