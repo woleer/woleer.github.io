@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](/_media/logo.png)
 
 # 亲情在线
 
@@ -10,4 +10,4 @@
 
 <!-- 背景色 -->
 
-![color](#f0f0f0)
+<!-- ![color](#f0f0f0) -->
