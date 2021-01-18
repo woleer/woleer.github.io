@@ -14,7 +14,7 @@
 </head>
 <body>
   <div id="app"></div>
-  <div id="gitalk-container"></div>
+  <div style="margin-left:260px;" id="gitalk-container"></div>
   <script>
     window.$docsify = {
       el: '#app',
@@ -46,14 +46,13 @@
       }
     }
     const gitalk = new Gitalk({
-      clientID: 'efbb730e89e61f8ac089',
-      clientSecret: '1bc95dbb645e847c180cdaa7f4bee73526c32479',
-      repo: 'appraise',
+      clientID: '4b72e1d729760585c864',
+      clientSecret: '67519c1d336755c7105ff2fd62158be7473b17b0',
+      repo: 'https://github.com/zkwoller/appraise',
       owner: 'zkwoller',
       admin: ['zkwoller'],
-      id: indow.location.pathname,
-      // facebook-like distraction free mode
-      distractionFreeMode: false
+      id:location.pathname,
+      distractionFreeMode: true
     })
     gitalk.render('gitalk-container')
   </script>
